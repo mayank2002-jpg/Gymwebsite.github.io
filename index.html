@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strenth system club</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Texturina&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* Css Reset*/
+    body {
+        font-family: 'Texturina', serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg');
+    }
+
+    .left {
+        position: absolute;
+        left: 36px;
+        top: 26px;
+        display: inline-block;
+        /*border: 2px solid rgb(117, 209, 13);*/
+    }
+
+    .left img {
+        width: 120px;
+    }
+
+    .left div {
+        line-height: 4px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 30px auto;
+        /*border: 2px solid rgb(89, 31, 223);*/
+    }
+
+    .right {
+        position: absolute;
+        right: 5px;
+        top: 56px;
+        display: inline-block;
+        /*border: 2px solid red;*/
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 30px 14px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        font-family: 'Texturina', serif;
+        margin: 0px 6px;
+        background-color: black;
+        color: white;
+        padding: 0px 4px;
+        border: 2px solid gray;
+        border-radius: 32px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: gray;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 68px 32px;
+        padding: 16px 102px;
+        width: 30%;
+        border-radius: 26px;
+    }
+
+    .form-group input {
+        font-family: 'Texturina', serif;
+        ;
+        text-align: center;
+        display: block;
+        width: 350px;
+        padding: 0px;
+        border: 4px solid black;
+        margin: 0px auto;
+        font-size: 18px;
+        border-radius: 26px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 92%;
+        margin: 14px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!--Left box for logo-->
+        <div class="left">
+            <img src="img/pexels-leon-martinez-1552252.jpg" alt="">
+            <div>Strength System club</div>
+        </div>
+        <!--mid box for navbar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness centre</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!--Right box for buttons-->
+        <div class="right">
+            <button class="btn">Call us Now</button><button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best JYM </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Phone number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Email id">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
